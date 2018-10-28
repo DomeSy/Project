@@ -1,0 +1,77 @@
+/*默认样式*/
+//创建自定义字体  - fzlt
+@font-face {
+  font-family: 'latoregular';
+  src: url('../font/lato-reg-webfont-webfont.eot');
+  src: url('../font/lato-reg-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../font/lato-reg-webfont-webfont.woff') format('woff'),
+       url('../font/lato-reg-webfont-webfont.ttf') format('truetype'),
+       url('../font/lato-reg-webfont-webfont.svg#latoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'latoblack';
+    src: url('../font/lato-bla-webfont.eot');
+    src: url('../font/lato-bla-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/lato-bla-webfont.woff') format('woff'),
+         url('../font/lato-bla-webfont.ttf') format('truetype'),
+         url('../font/lato-bla-webfont.svg#latoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+  margin:0;
+  font-family: 'latoregular' 'latoblack' 'SimSun' 'Microsoft Yahei' 'NSimSun' 'PingFang SC' 'STKaiti' ;
+}
+body *{
+  -webkit-text-size-adjust: 100%;
+}
+a,
+input,
+button{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+input,
+button{
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+//pc
+a{
+  text-decoration: none;
+  color: #000;
+}
+button{
+  border:none;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+figure,
+ul,
+p{
+  margin:0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5{
+  font-weight: normal;
+}
+img{
+  vertical-align: top;
+  border:none;
+}
+
+li,ul{
+  list-style: none;
+  padding: 0;
+}
